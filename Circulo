@@ -1,0 +1,11 @@
+
+package javaapplication2;
+
+/**
+ *
+ * @author Gsistemas
+ */
+public class Circulo {
+float radio;
+
+}
