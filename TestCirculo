@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package javaapplication2;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Gsistemas
+ */
+public class TestCirculo {
+    private static String radio;
+
+    public static void main (String arg []){
+        
+    
+            Circulo C;
+            C= new Circulo ();
+            JOptionPane.showMessageDialog(null, "El valor por default es " + radio);
+            radio = (JOptionPane.showInputDialog("Dame el valor del radio: "));
+            float b = Float.parseFloat(radio);
+            if(b >= 0 )
+                
+                JOptionPane.showMessageDialog(null, "El valor nuevo del radio es " + radio);
+            else 
+                       
+                JOptionPane.showMessageDialog(null,"El valor ingresado no es valido") ;
+                        
+                        
+                        
+   }
+  
+}
