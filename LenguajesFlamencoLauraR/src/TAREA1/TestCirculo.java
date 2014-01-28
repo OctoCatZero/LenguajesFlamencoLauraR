@@ -6,10 +6,20 @@
 
 package TAREA1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author lauraflamenco
  */
 public class TestCirculo {
     
+ /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+         Circulo c=new Circulo();
+    c.setRadio(-20);
+    JOptionPane.showMessageDialog(null, "El radio es " + c.getRadio());
+    }
 }
