@@ -18,7 +18,7 @@ public class Persona {
     }
 
     public void setEdad(float Edad) {
-        if(Edad<0)Edad=-Edad;
+        if(Edad<18)Edad=18;
      
         this.Edad = Edad;
     }

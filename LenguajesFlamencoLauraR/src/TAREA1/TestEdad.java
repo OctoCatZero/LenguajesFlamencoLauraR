@@ -19,7 +19,7 @@ public class TestEdad {
      */
     public static void main(String[] args) {
          Persona p=new Persona();
-    p.setEdad(-20);
+    p.setEdad(-15);
     JOptionPane.showMessageDialog(null, "La edad es   " + p.getEdad());
     }
 }
