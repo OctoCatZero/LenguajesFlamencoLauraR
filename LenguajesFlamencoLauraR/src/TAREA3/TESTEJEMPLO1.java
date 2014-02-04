@@ -9,7 +9,9 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author lauraflamenco
- */
+ EN ESTE CASO AL NO DAR UN VALOR A LA VARIABLE X , EL CONSTRUCTOR PONE UN VALOR 
+DE CERO LA VARIABLE DE TIPO ENTERO
+*/
 public class TESTEJEMPLO1 {
 
     /**
