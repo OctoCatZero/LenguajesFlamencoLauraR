@@ -6,22 +6,23 @@
 
 package TAREA3;
 
-import javax.swing.JOptionPane;
+
 
 /**
  *
  * @author lauraflamenco
  */
-public class TESTEJEMPLO2 {
+public class TESTEJEMPLO4 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      EJEMPLO2 ejemplo2= new EJEMPLO2();  
-       
-        JOptionPane.showMessageDialog(null, ejemplo2.x);
         
+        EJEMPLO4 ejemplo4= new EJEMPLO4();  
+
+        
+        // TODO code application logic here
     }
     
 }

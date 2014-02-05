@@ -12,16 +12,16 @@ import javax.swing.JOptionPane;
  *
  * @author lauraflamenco
  */
-public class TESTEJEMPLO2 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-      EJEMPLO2 ejemplo2= new EJEMPLO2();  
-       
-        JOptionPane.showMessageDialog(null, ejemplo2.x);
-        
+public class EJEMPLO6 {
+    int y;
+    //SE TOMA COMO ATRIBUTO
+    public EJEMPLO6 (){
+    
+    JOptionPane.showMessageDialog(null,y);
+    //SI NO SE DECLARA VALOR EL CONTRUCTOR LE DA UN VALOR POR DEFAULT 
     }
     
+    
 }
+//SI COMPILA SIN EERROR 
+//

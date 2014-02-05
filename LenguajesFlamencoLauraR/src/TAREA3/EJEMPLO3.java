@@ -10,9 +10,11 @@ package TAREA3;
  *
  * @author lauraflamenco
  */
-public class EJEMPLO2 {
-    public EJEMPLO2 (){} //Se esta declarando de nuevo el contructor 
-    int x;
-    String y;
-
+public class EJEMPLO3 {
+    
+    EJEMPLO3();
+  /*
+    NO PUEDE USARSE EL CONTRUCTOR EN LA CLASE QUE SE ESTA IMPLEMENTANDO 
+  */
+    
 }

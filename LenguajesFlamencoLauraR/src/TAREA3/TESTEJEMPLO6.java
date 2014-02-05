@@ -4,24 +4,23 @@
  * and open the template in the editor.
  */
 
-package TAREA3;
 
+package TAREA3;
 import javax.swing.JOptionPane;
 
 /**
  *
  * @author lauraflamenco
  */
-public class TESTEJEMPLO2 {
+public class TESTEJEMPLO6 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      EJEMPLO2 ejemplo2= new EJEMPLO2();  
-       
-        JOptionPane.showMessageDialog(null, ejemplo2.x);
-        
+            EJEMPLO6 ejemplo6= new EJEMPLO6();
+            JOptionPane.showMessageDialog(null, ejemplo6);
+        // TODO code application logic here
     }
     
 }
