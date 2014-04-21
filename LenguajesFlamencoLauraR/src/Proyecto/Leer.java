@@ -18,7 +18,13 @@ public class Leer {
      */
     public static void main(String[] args) throws Exception {
         // TODO code application logic here
-     System.out.println(   GuardarArchivo.leer());
+      
+          for (Archivo a : GuardarArchivo.leer()) {
+   
+            System.out.println(a);
+        }
+        
+   //  System.out.println(   GuardarArchivo.leer());
     }
     
 }
