@@ -19,7 +19,31 @@ public class GuardarArchivo {
     ObjectInputStream  ois=new ObjectInputStream(fis);
   ArrayList<Archivo> u=(ArrayList<Archivo>)  ois.readObject();
   ois.close();
+     //System.out.println(u);
   return u;
+     
+  }
+    
+    public synchronized static Archivo leerUno(String nombre)throws Exception{
+   File file=new File("archiva");    
+ Archivo ar=null;
+    FileInputStream fis=new FileInputStream(file);
+    ObjectInputStream  ois=new ObjectInputStream(fis);
+    
+  ArrayList<Archivo> u=(ArrayList<Archivo>)  ois.readObject();
+  
+  for(Archivo a:u){
+   if(nombre.equalsIgnoreCase(a.getNombre()))  {
+       ar=a;
+     
+       a.getArchivito();
+       File salida=a.getArchivito();
+       System.out.println(nombre);
+      System.out.println(salida.length());
+ 
+  }
+  ois.close();
+  return ar;
   }
     
     public static void guardar(Archivo u)throws Exception{
