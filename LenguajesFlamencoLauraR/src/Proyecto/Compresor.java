@@ -395,10 +395,13 @@ Archivo a;
        
       
         try {
-             GuardarArchivo.leerUno(TextoArchivo.getText());
-             
-               TextoArchivo.setText(null);                     
-          // boolean equals = TextoArchivo.getText().equals(a.getNombre());
+  Archivo a=  GuardarArchivo.leerUno(TextoArchivo.getText());
+      File f=    a.getArchivito();
+     String titulo=a.getNombre();
+     System.out.println(titulo);
+                                 
+          
+               
             
           //  System.out.println();
          

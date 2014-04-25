@@ -37,14 +37,16 @@ public class GuardarArchivo {
        ar=a;
      
        a.getArchivito();
-       File salida=a.getArchivito();
+     
        System.out.println(nombre);
-      System.out.println(salida.length());
+      
  
   }
   ois.close();
-  return ar;
   }
+  return ar;
+  
+    }
     
     public static void guardar(Archivo u)throws Exception{
         ArrayList usuarios=new ArrayList<Archivo>();
